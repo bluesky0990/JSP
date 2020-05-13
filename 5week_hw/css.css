@@ -1,0 +1,68 @@
+@charset 'utf-8';
+
+* {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	background-color: pink;
+}
+
+#top {
+	border: 1px solid white;
+	width: 50%;
+	height: 20px;
+	position: relative;
+	text-align: center;
+}
+
+#left {
+	border: 1px solid white;
+	width: 4%;
+	height: 100px;
+	position: relative;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+#content {
+	border: 1px solid white;
+	width: 45%;
+	height: 100px;
+	position: relative;
+	float: rifgt;
+	margin: 5px;
+	padding: 5px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 70%;
+	margin: auto;
+}
+table, th, td {
+	border: 1px solid black;
+}
+th {
+	width: 33%;
+}
+td {
+	width: 33%;
+	text-align: center;
+}
+
+#bottom {
+	border: 1px solid white;
+	width: 50%;
+	clear: both;
+	text-align: center;
+}
