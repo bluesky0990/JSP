@@ -10,7 +10,7 @@ public class Dbcp {
 	private PreparedStatement pStmt = null;
 	public ResultSet rs = null;
 	
-	public void Connector(String type, String sql, String[] parameter) {
+	public void sqlExecute(String type, String sql, String[] parameter) {
 		try {
 			Context initCtx = new InitialContext();
 			DataSource ds = (DataSource)initCtx.lookup("java:comp/env/jdbc/hg");
